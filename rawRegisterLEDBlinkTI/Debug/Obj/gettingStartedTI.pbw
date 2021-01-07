@@ -1,27 +1,97 @@
 [
   {
+    "ID": "c:main.c@8@macro@RCC_GPIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_GPIO",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\rawRegisterLEDBlinkTI\\main.c"
+    },
+    "name": "RCC_GPIO",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@62@macro@GPIOF_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOF_BASE",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\rawRegisterLEDBlinkTI\\main.c"
+    },
+    "name": "GPIOF_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@95@macro@GPIOF_DIRECTION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOF_DIRECTION",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\rawRegisterLEDBlinkTI\\main.c"
+    },
+    "name": "GPIOF_DIRECTION",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@161@macro@GPIOF_DEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOF_DEN",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\rawRegisterLEDBlinkTI\\main.c"
+    },
+    "name": "GPIOF_DEN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@225@macro@GPIOF_DATA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOF_DATA",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\rawRegisterLEDBlinkTI\\main.c"
+    },
+    "name": "GPIOF_DATA",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "2",
-      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\gettingStartedTI\\main.c"
+      "line": "7",
+      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\rawRegisterLEDBlinkTI\\main.c"
     },
     "name": "main",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@233@F@main@counter",
+    "ID": "c:main.c@469@F@main@counter",
     "What": "Variable",
     "defdec": "Def",
     "display": "counter",
     "location": {
       "column": "13",
-      "line": "11",
-      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\gettingStartedTI\\main.c"
+      "line": "16",
+      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\rawRegisterLEDBlinkTI\\main.c"
     },
     "name": "counter",
     "origin": "project_file",

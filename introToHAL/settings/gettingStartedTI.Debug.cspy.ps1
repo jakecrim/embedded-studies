@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\settings\gettingStartedTI.Debug.general.xcl" --backend -f "C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\settings\gettingStartedTI.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\settings\gettingStartedTI.Debug.general.xcl" --backend -f "C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\settings\gettingStartedTI.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\settings\gettingStartedTI.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\settings\gettingStartedTI.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\settings\gettingStartedTI.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\settings\gettingStartedTI.Debug.driver.xcl" 
 }

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>3150777509</fileChecksum>
+    <fileChecksum>3176656023</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$PROJ_DIR$\main.c</file>
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\LM4F111H5QR.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\Debug\List\gettingStartedTI.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\gettingStartedTI.pbd</file>
-            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\Debug\Exe\gettingStartedTI.out</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\List\gettingStartedTI.map</file>
+            <file>$PROJ_DIR$\Debug\Exe\gettingStartedTI.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\gettingStartedTI.pbd</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 10 6</file>
+                    <file> 10 9</file>
                 </tool>
             </outputs>
         </file>
@@ -32,15 +32,15 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 11</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 1</file>
+                    <file> 7</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 9</file>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 4</file>
                 </tool>
             </outputs>
         </file>
@@ -49,13 +49,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 6</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 0 11 4 3 2 5</file>
+                    <file> 1 7 8 3 2 5</file>
                 </tool>
             </inputs>
         </file>

@@ -1,20 +1,20 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.1.169/W32 for ARM                  06/Jan/2021  23:20:50
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  07/Jan/2021  15:18:11
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
-#        C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\Debug\Exe\gettingStartedTI.out
+#        C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\Debug\Exe\gettingStartedTI.out
 #    Map file     =  
-#        C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\Debug\List\gettingStartedTI.map
+#        C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\Debug\List\gettingStartedTI.map
 #    Command line =  
-#        -f C:\Users\JACOBH~1\AppData\Local\Temp\EWBBB5.tmp
-#        (C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\Debug\Obj\main.o
+#        -f C:\Users\JACOBH~1\AppData\Local\Temp\EW1A90.tmp
+#        (C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\Debug\Obj\main.o
 #        --no_out_extension -o
-#        C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\Debug\Exe\gettingStartedTI.out
+#        C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\Debug\Exe\gettingStartedTI.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --map
-#        C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\Debug\List\gettingStartedTI.map
+#        C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\Debug\List\gettingStartedTI.map
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.2\arm\config\linker\TexasInstruments\LM4F111H5QR.icf" --semihosting
 #        --entry __iar_program_start --vfe --text_out locale)
@@ -61,17 +61,17 @@ No sections matched the following patterns:
   .intvec   ro code          0x0   0x40  vector_table_M.o [4]
                           - 0x40   0x40
 
-"P1":                              0xc0
-  .text     ro code         0x40   0x48  main.o [1]
-  .text     ro code         0x88   0x22  fpinit_M.o [3]
-  .text     ro code         0xaa    0x2  vector_table_M.o [4]
-  .text     ro code         0xac   0x1e  cmain.o [4]
-  .text     ro code         0xca    0x4  low_level_init.o [2]
-  .text     ro code         0xce    0x4  exit.o [2]
-  .text     ro code         0xd4    0xa  cexit.o [4]
-  .text     ro code         0xe0   0x14  exit.o [5]
-  .text     ro code         0xf4    0xc  cstartup_M.o [4]
-                         - 0x100   0xc0
+"P1":                              0xd8
+  .text     ro code         0x40   0x60  main.o [1]
+  .text     ro code         0xa0   0x22  fpinit_M.o [3]
+  .text     ro code         0xc2    0x2  vector_table_M.o [4]
+  .text     ro code         0xc4   0x1e  cmain.o [4]
+  .text     ro code         0xe2    0x4  low_level_init.o [2]
+  .text     ro code         0xe6    0x4  exit.o [2]
+  .text     ro code         0xec    0xa  cexit.o [4]
+  .text     ro code         0xf8   0x14  exit.o [5]
+  .text     ro code        0x10c    0xc  cstartup_M.o [4]
+                         - 0x118   0xd8
 
 "P2":                             0x800
   CSTACK             0x2000'0000  0x800  <Block>
@@ -82,7 +82,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0x100     0x3'ffff  0x3'ff00
+        0x118     0x3'ffff  0x3'fee8
   0x2000'0800  0x2000'7fff    0x7800
 
 
@@ -97,10 +97,10 @@ command line/config:
     ----------------------------------
     Total:
 
-C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\Debug\Obj: [1]
-    main.o                 72
+C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\Debug\Obj: [1]
+    main.o                 96
     ----------------------------------
-    Total:                 72
+    Total:                 96
 
 dl7M_tln.a: [2]
     exit.o                  4
@@ -129,7 +129,7 @@ shb_l.a: [5]
     Gaps                    4
     Linker created               2 048
 --------------------------------------
-    Grand Total:          256    2 048
+    Grand Total:          280    2 048
 
 
 *******************************************************************************
@@ -138,31 +138,31 @@ shb_l.a: [5]
 
 Entry                     Address  Size  Type      Object
 -----                     -------  ----  ----      ------
-?main                        0xad        Code  Gb  cmain.o [4]
+?main                        0xc5        Code  Gb  cmain.o [4]
 CSTACK$$Base          0x2000'0000         --   Gb  - Linker created -
 CSTACK$$Limit         0x2000'0800         --   Gb  - Linker created -
 Region$$Table$$Base           0x0         --   Gb  - Linker created -
 Region$$Table$$Limit          0x0         --   Gb  - Linker created -
-__cmain                      0xad        Code  Gb  cmain.o [4]
-__exit                       0xe1  0x14  Code  Gb  exit.o [5]
-__iar_init_vfp               0x89        Code  Gb  fpinit_M.o [3]
-__iar_program_start          0xf5        Code  Gb  cstartup_M.o [4]
-__low_level_init             0xcb   0x4  Code  Gb  low_level_init.o [2]
+__cmain                      0xc5        Code  Gb  cmain.o [4]
+__exit                       0xf9  0x14  Code  Gb  exit.o [5]
+__iar_init_vfp               0xa1        Code  Gb  fpinit_M.o [3]
+__iar_program_start         0x10d        Code  Gb  cstartup_M.o [4]
+__low_level_init             0xe3   0x4  Code  Gb  low_level_init.o [2]
 __vector_table                0x0        Data  Gb  vector_table_M.o [4]
-_call_main                   0xb9        Code  Gb  cmain.o [4]
-_exit                        0xd5        Code  Gb  cexit.o [4]
-_main                        0xc7        Code  Gb  cmain.o [4]
-exit                         0xcf   0x4  Code  Gb  exit.o [2]
-main                         0x41  0x48  Code  Gb  main.o [1]
+_call_main                   0xd1        Code  Gb  cmain.o [4]
+_exit                        0xed        Code  Gb  cexit.o [4]
+_main                        0xdf        Code  Gb  cmain.o [4]
+exit                         0xe7   0x4  Code  Gb  exit.o [2]
+main                         0x41  0x60  Code  Gb  main.o [1]
 
 
-[1] = C:\Mass-Storage-Disk\repos\current-embedded-learning\rawRegisterLEDBlinkTI\Debug\Obj
+[1] = C:\Mass-Storage-Disk\repos\current-embedded-learning\introToHAL\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-    256 bytes of readonly  code memory
+    280 bytes of readonly  code memory
   2 048 bytes of readwrite data memory
 
 Errors: none
