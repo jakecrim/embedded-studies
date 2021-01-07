@@ -3282,41 +3282,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@33@macro@RCC_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCC_BASE",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
-    },
-    "name": "RCC_BASE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@90@macro@GPIOE_BASE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIOE_BASE",
-    "location": {
-      "column": "9",
-      "line": "6",
-      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
-    },
-    "name": "GPIOE_BASE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@314@macro@LED_GREEN",
+    "ID": "c:main.c@344@macro@LED_GREEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_GREEN",
     "location": {
       "column": "9",
-      "line": "13",
+      "line": "14",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "LED_GREEN",
@@ -3324,13 +3296,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@344@macro@LED_ORANGE",
+    "ID": "c:main.c@374@macro@LED_ORANGE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_ORANGE",
     "location": {
       "column": "9",
-      "line": "14",
+      "line": "15",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "LED_ORANGE",
@@ -3338,13 +3310,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@375@macro@LED_RED",
+    "ID": "c:main.c@405@macro@LED_RED",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_RED",
     "location": {
       "column": "9",
-      "line": "15",
+      "line": "16",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "LED_RED",
@@ -3352,13 +3324,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@403@macro@LED_BLUE",
+    "ID": "c:main.c@433@macro@LED_BLUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_BLUE",
     "location": {
       "column": "9",
-      "line": "16",
+      "line": "17",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "LED_BLUE",
@@ -3366,13 +3338,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@432@macro@LED_GREEN2",
+    "ID": "c:main.c@462@macro@LED_GREEN2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_GREEN2",
     "location": {
       "column": "9",
-      "line": "17",
+      "line": "18",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "LED_GREEN2",
@@ -3380,13 +3352,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@463@macro@LED_ORANGE2",
+    "ID": "c:main.c@493@macro@LED_ORANGE2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_ORANGE2",
     "location": {
       "column": "9",
-      "line": "18",
+      "line": "19",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "LED_ORANGE2",
@@ -3394,13 +3366,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@495@macro@LED_RED2",
+    "ID": "c:main.c@525@macro@LED_RED2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_RED2",
     "location": {
       "column": "9",
-      "line": "19",
+      "line": "20",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "LED_RED2",
@@ -3408,13 +3380,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@523@macro@LED_BLUE2",
+    "ID": "c:main.c@553@macro@LED_BLUE2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_BLUE2",
     "location": {
       "column": "9",
-      "line": "20",
+      "line": "21",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "LED_BLUE2",
@@ -3422,13 +3394,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@554@macro@GPIOE_DATA_OUT",
+    "ID": "c:main.c@584@macro@GPIOE_DATA_OUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE_DATA_OUT",
     "location": {
       "column": "9",
-      "line": "22",
+      "line": "23",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "GPIOE_DATA_OUT",
@@ -3442,7 +3414,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "24",
+      "line": "25",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "main",
@@ -3450,13 +3422,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@856@F@main@LED_SET",
+    "ID": "c:main.c@886@F@main@LED_SET",
     "What": "Variable",
     "defdec": "Def",
     "display": "LED_SET",
     "location": {
       "column": "15",
-      "line": "29",
+      "line": "30",
       "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\registersLedsEtc\\main.c"
     },
     "name": "LED_SET",

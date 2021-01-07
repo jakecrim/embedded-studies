@@ -1,9 +1,10 @@
 #include <stdint.h>
+#include "stm32f303xc.h"
 
 
-#define RCC_BASE (*((volatile uint32_t *)0x40021014))
+//#define RCC_BASE (*((volatile uint32_t *)0x40021014))
 
-#define GPIOE_BASE  (*((volatile unsigned int *)0x48001000U))
+//#define GPIOE_BASE  (*((volatile unsigned int *)0x48001000U))
 
 
 // defining the correct bits for each led color, (ex: 1U << 15 is 

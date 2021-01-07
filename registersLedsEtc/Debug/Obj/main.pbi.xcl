@@ -5,9 +5,13 @@
 -I
 C:\Mass-Storage-Disk\repos\current-embedded-learning\registersLedsEtc
 -I
+E:\Programming3rd\C\STM32CubeF3-master\Drivers
+-I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
+-I
+E:\Programming3rd\C\STM32CubeF3-master\Drivers
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
