@@ -6830,7 +6830,7 @@
 #define SYSCTL_RCGC2_GPIOF      0x00000020  // Port F Clock Gating Control
 #define SYSCTL_RCGC2_GPIOE      0x00000010  // Port E Clock Gating Control
 #define SYSCTL_RCGC2_GPIOD      0x00000008  // Port D Clock Gating Control
-#define SYSCTL_RCGC2_GPIOC      0x00000004  // Port C Clock Gating Control
+#define SYSCRCGC2_GPIOC      0x00000004  // Port C Clock Gating Control
 #define SYSCTL_RCGC2_GPIOB      0x00000002  // Port B Clock Gating Control
 #define SYSCTL_RCGC2_GPIOA      0x00000001  // Port A Clock Gating Control
 
