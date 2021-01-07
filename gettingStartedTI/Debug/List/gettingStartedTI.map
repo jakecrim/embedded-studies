@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.1.169/W32 for ARM                  06/Jan/2021  02:42:08
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  06/Jan/2021  23:00:08
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Mass-Storage-Disk\repos\current-embedded-learning\gettingStartedTI\Debug\List\gettingStartedTI.map
 #    Command line =  
-#        -f C:\Users\JACOBH~1\AppData\Local\Temp\EW52B6.tmp
+#        -f C:\Users\JACOBH~1\AppData\Local\Temp\EWC96F.tmp
 #        (C:\Mass-Storage-Disk\repos\current-embedded-learning\gettingStartedTI\Debug\Obj\main.o
 #        --no_out_extension -o
 #        C:\Mass-Storage-Disk\repos\current-embedded-learning\gettingStartedTI\Debug\Exe\gettingStartedTI.out
@@ -61,17 +61,17 @@ No sections matched the following patterns:
   .intvec   ro code          0x0   0x40  vector_table_M.o [4]
                           - 0x40   0x40
 
-"P1":                              0xa8
-  .text     ro code         0x40   0x30  main.o [1]
-  .text     ro code         0x70   0x22  fpinit_M.o [3]
-  .text     ro code         0x92    0x2  vector_table_M.o [4]
-  .text     ro code         0x94   0x1e  cmain.o [4]
-  .text     ro code         0xb2    0x4  low_level_init.o [2]
-  .text     ro code         0xb6    0x4  exit.o [2]
-  .text     ro code         0xbc    0xa  cexit.o [4]
-  .text     ro code         0xc8   0x14  exit.o [5]
-  .text     ro code         0xdc    0xc  cstartup_M.o [4]
-                          - 0xe8   0xa8
+"P1":                              0xc4
+  .text     ro code         0x40   0x4c  main.o [1]
+  .text     ro code         0x8c   0x22  fpinit_M.o [3]
+  .text     ro code         0xae    0x2  vector_table_M.o [4]
+  .text     ro code         0xb0   0x1e  cmain.o [4]
+  .text     ro code         0xce    0x4  low_level_init.o [2]
+  .text     ro code         0xd2    0x4  exit.o [2]
+  .text     ro code         0xd8    0xa  cexit.o [4]
+  .text     ro code         0xe4   0x14  exit.o [5]
+  .text     ro code         0xf8    0xc  cstartup_M.o [4]
+                         - 0x104   0xc4
 
 "P2":                             0x800
   CSTACK             0x2000'0000  0x800  <Block>
@@ -82,7 +82,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-         0xe8     0x3'ffff  0x3'ff18
+        0x104     0x3'ffff  0x3'fefc
   0x2000'0800  0x2000'7fff    0x7800
 
 
@@ -98,9 +98,9 @@ command line/config:
     Total:
 
 C:\Mass-Storage-Disk\repos\current-embedded-learning\gettingStartedTI\Debug\Obj: [1]
-    main.o                 48
+    main.o                 76
     ----------------------------------
-    Total:                 48
+    Total:                 76
 
 dl7M_tln.a: [2]
     exit.o                  4
@@ -129,7 +129,7 @@ shb_l.a: [5]
     Gaps                    4
     Linker created               2 048
 --------------------------------------
-    Grand Total:          232    2 048
+    Grand Total:          260    2 048
 
 
 *******************************************************************************
@@ -138,22 +138,22 @@ shb_l.a: [5]
 
 Entry                     Address  Size  Type      Object
 -----                     -------  ----  ----      ------
-?main                        0x95        Code  Gb  cmain.o [4]
+?main                        0xb1        Code  Gb  cmain.o [4]
 CSTACK$$Base          0x2000'0000         --   Gb  - Linker created -
 CSTACK$$Limit         0x2000'0800         --   Gb  - Linker created -
 Region$$Table$$Base           0x0         --   Gb  - Linker created -
 Region$$Table$$Limit          0x0         --   Gb  - Linker created -
-__cmain                      0x95        Code  Gb  cmain.o [4]
-__exit                       0xc9  0x14  Code  Gb  exit.o [5]
-__iar_init_vfp               0x71        Code  Gb  fpinit_M.o [3]
-__iar_program_start          0xdd        Code  Gb  cstartup_M.o [4]
-__low_level_init             0xb3   0x4  Code  Gb  low_level_init.o [2]
+__cmain                      0xb1        Code  Gb  cmain.o [4]
+__exit                       0xe5  0x14  Code  Gb  exit.o [5]
+__iar_init_vfp               0x8d        Code  Gb  fpinit_M.o [3]
+__iar_program_start          0xf9        Code  Gb  cstartup_M.o [4]
+__low_level_init             0xcf   0x4  Code  Gb  low_level_init.o [2]
 __vector_table                0x0        Data  Gb  vector_table_M.o [4]
-_call_main                   0xa1        Code  Gb  cmain.o [4]
-_exit                        0xbd        Code  Gb  cexit.o [4]
-_main                        0xaf        Code  Gb  cmain.o [4]
-exit                         0xb7   0x4  Code  Gb  exit.o [2]
-main                         0x41  0x30  Code  Gb  main.o [1]
+_call_main                   0xbd        Code  Gb  cmain.o [4]
+_exit                        0xd9        Code  Gb  cexit.o [4]
+_main                        0xcb        Code  Gb  cmain.o [4]
+exit                         0xd3   0x4  Code  Gb  exit.o [2]
+main                         0x41  0x4c  Code  Gb  main.o [1]
 
 
 [1] = C:\Mass-Storage-Disk\repos\current-embedded-learning\gettingStartedTI\Debug\Obj
@@ -162,7 +162,7 @@ main                         0x41  0x30  Code  Gb  main.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-    232 bytes of readonly  code memory
+    260 bytes of readonly  code memory
   2 048 bytes of readwrite data memory
 
 Errors: none

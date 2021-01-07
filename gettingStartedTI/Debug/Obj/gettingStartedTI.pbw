@@ -12,5 +12,19 @@
     "name": "main",
     "origin": "project_file",
     "scope": null
+  },
+  {
+    "ID": "c:main.c@233@F@main@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "13",
+      "line": "11",
+      "path": "C:\\Mass-Storage-Disk\\repos\\current-embedded-learning\\gettingStartedTI\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
   }
 ]
