@@ -4,8 +4,8 @@ Each folder is a functional IAR project, containing a main.c (and other source f
 
 ## Folders
 
-**rawRegisterLEDBlinkTI**: Specific name for a specific lesson, here we directly write to the addresses for a GPIO base, GPIO direction, GPIO data enable, and GPIO data. By writing the correct values to these registers, we can get a specific GPIO block on, and blink an LED.
+* **rawRegisterLEDBlinkTI**: Specific name for a specific lesson, here we directly write to the addresses for a GPIO base, GPIO direction, GPIO data enable, and GPIO data. By writing the correct values to these registers, we can get a specific GPIO block on, and blink an LED.
 
-**introToHAL**: Basics of using the Texas Instruments provided hardware access header file definitions for addressing and accessing specific GPIO registers, volatile keyword, bit-wise operators, etc.
+* **introToHAL**: Basics of using the Texas Instruments provided hardware access header file definitions for addressing and accessing specific GPIO registers, volatile keyword, bit-wise operators, etc.
 
-**More**: Will continue to add project folders as I visit and revisit specific embedded system/low-level concepts.
+* **More**: Will continue to add project folders as I visit and revisit specific embedded system/low-level concepts.
