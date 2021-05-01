@@ -1,6 +1,7 @@
 # Embedded Studies
 
 Each folder is a functional IAR project, containing a main.c (and other source files) focusing on some fundamental low-level programming areas that I found important to know for embedded systems development. The main.c is the first file that should be looked at to get an understanding of what concept is being focused on.
+The folders are listed in the order I find most useful for growing an understanding of the topics.
 
 ## Folders
 
