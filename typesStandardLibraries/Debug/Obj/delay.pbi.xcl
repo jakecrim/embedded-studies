@@ -1,9 +1,9 @@
-"C:\Mass-Storage-Disk\repos\current-embedded-learning\learning3\delay.c"
+"C:\Mass-Storage-Disk\repos\current-embedded-learning\typesStandardLibraries\delay.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Mass-Storage-Disk\repos\current-embedded-learning\learning3
+C:\Mass-Storage-Disk\repos\current-embedded-learning\typesStandardLibraries
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I

@@ -27,12 +27,19 @@ int main()
     u32e = sizeof(uint32_t);
 
     u8a = 0xa2U;
-    u16c = 0xc23U;
-    u32e =0x1234ee;
+    u16c = 0xc233U;
+    u32e =0x1234ee32;
 
     u8b = u8a;
     u16d = u16c;
     u32f = u32e;
+
+    u16c = 40000U;
+    u16d = 30000U;
+    // portable addition for if another machine is 16 bit int size
+    u32e = (uint32_t)u16c + u16d;
+
+
 
 
     /* Simple Pointer / Swap Excercise */

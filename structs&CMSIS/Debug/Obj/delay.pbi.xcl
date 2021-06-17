@@ -1,13 +1,17 @@
-"C:\Mass-Storage-Disk\repos\current-embedded-learning\typesStandardLibraries\delay.c"
+"C:\Mass-Storage-Disk\repos\current-embedded-learning\structs&CMSIS\delay.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Mass-Storage-Disk\repos\current-embedded-learning\typesStandardLibraries
+C:\Mass-Storage-Disk\repos\current-embedded-learning\structs&CMSIS
+-I
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
+-I
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

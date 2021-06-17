@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.1.169/W32 for ARM                  01/Jun/2021  20:05:58
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  16/Jun/2021  13:57:13
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Mass-Storage-Disk\repos\current-embedded-learning\structs&CMSIS\Debug\List\gettingStartedTI.map
 #    Command line =  
-#        -f C:\Users\JACOBH~1\AppData\Local\Temp\EW5BF2.tmp
+#        -f C:\Users\JACOBH~1\AppData\Local\Temp\EWD034.tmp
 #        (C:\Mass-Storage-Disk\repos\current-embedded-learning\structs&CMSIS\Debug\Obj\delay.o
 #        C:\Mass-Storage-Disk\repos\current-embedded-learning\structs&CMSIS\Debug\Obj\main.o
 #        --no_out_extension -o
